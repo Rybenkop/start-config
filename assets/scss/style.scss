@@ -1,18 +1,2 @@
-@import "icons/iconfont__variables";
-@import "icons/iconfont__icons";
-
-$body-color	: #f123c2;
-
-body {
-	background-color: $body-color;
-
-	p {
-		margin: 0;
-		padding: 0;
-	}
-
-	div {
-		text-align :center;
-		font-size: 24px;
-	}
-}
+@import 'mixins';
+@import 'settings';
